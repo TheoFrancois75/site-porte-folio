@@ -1,0 +1,579 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+@font-face {
+  font-family: 'nicolas_frespechregular';
+  src: url('nicolas_frespech-webfont.eot');
+  src: url('nicolas_frespech-webfont.eot?#iefix') format('embedded-opentype'),
+       url('nicolas_frespech-webfont.woff') format('woff'),
+       url('nicolas_frespech-webfont.ttf') format('truetype'),
+       url('nicolas_frespech-webfont.svg#nicolas_frespechregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'journey';
+  src: url('journey.eot');
+  src: url('journey?#iefix') format('embedded-opentype'),
+       url('journey.woff') format('woff'),
+       url('journey.ttf') format('truetype'),
+       url('journey.svg#journey') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {    
+  font-family: 'old_londonregular';
+  src: url('oldlondon-webfont.eot');
+  src: url('oldlondon-webfont.eot?#iefix') format('embedded-opentype'),
+       url('oldlondon-webfont.woff') format('woff'),
+       url('oldlondon-webfont.ttf') format('truetype'),
+       url('oldlondon-webfont.svg#old_londonregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'outofspacemedium';
+  src: url('outofspace-webfont.eot');
+  src: url('outofspace-webfont.eot?#iefix') format('embedded-opentype'),
+       url('outofspace-webfont.woff') format('woff'),
+       url('outofspace-webfont.ttf') format('truetype'),
+       url('outofspace-webfont.svg#outofspacemedium') format('svg');
+  font-weight: normal;
+  font-style: normal; 
+}
+
+body {
+  margin: 24px;
+  animation: changementcouleur2 2s;
+  background: #000000;
+  font-family: 'Poppins', sans-serif;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr; */
+
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+.bodyindex {
+  margin: 24px;
+  animation: changementcouleur 2s;
+  background: #af9158;
+  font-family: 'Poppins', sans-serif;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr; */
+
+}
+
+@media (min-width:800px){
+  .projet{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+
+@media (min-width:800px){
+  .home{
+      display: grid;
+      grid-template-columns: 1fr 1fr ; 
+  }
+}
+
+@media (min-width:1200px){
+  .home {
+      /* display: grid; */
+      grid-template-columns: 1fr 1fr 1fr; 
+  }
+}
+
+
+.header {
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+
+
+}
+
+.logo {
+width: 25%;
+size: 10em;
+position: absolute;
+top: 5px;
+left:5px;
+}  
+
+.header-home {
+
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+
+
+}
+
+
+
+.nav a {
+  margin: 10px;
+  color: #ffffff5d;
+}
+
+.nav a:hover {
+  color: #ffffff;
+  transition: 0.5s ease;
+}
+
+.insta{
+  color: #ffffff5d;
+
+}
+.insta:hover {
+  color: #ffffff;
+  transition: 0.5s ease;
+
+}
+
+.capsule{
+font-family: 'journey','Poppins', sans-serif;
+color: #ffffff;
+
+animation: slideleft cubic-bezier(.68,.01,.33,1.16) 1s;
+font-size: 2em;
+
+}
+
+.capsule:hover {
+color: #701d62;
+transition: 0.25s ease;
+  
+
+
+}
+
+h1 w a:hover{
+
+color: #701d62;
+transition: 0.25s ease;
+}
+
+
+.capsule::after{
+color: #701d62;
+opacity: 0;
+animation: slideright cubic-bezier(.68,.01,.33,1.16) 0.25s;
+
+}
+.capsule:hover::after{
+color: #701d62;
+content:  "/explore";
+animation: slideright cubic-bezier(.68,.01,.33,1.16) 0.25s;
+opacity: 1;
+
+}
+
+.capsule2::after{
+color: #200580;
+opacity: 0;
+animation: slideright cubic-bezier(.68,.01,.33,1.16) 0.25s;
+
+}
+.capsule2:hover::after{
+color: #200580;
+content:  "/explore";
+animation: slideright cubic-bezier(.68,.01,.33,1.16) 0.25s;
+opacity: 1;
+
+}
+
+h1 x a:hover{
+
+color: #200580;
+transition: 0.25s ease;
+}
+
+.capsule3::after{
+color:  #920101;
+opacity: 0;
+animation: slideright cubic-bezier(.68,.01,.33,1.16) 0.25s;
+
+}
+.capsule3:hover::after{
+color:  #920101;
+content:  "/explore";
+animation: slideright cubic-bezier(.68,.01,.33,1.16) 0.25s;
+opacity: 1;
+
+}
+
+h1 y a:hover{
+
+color: #920101;
+transition: 0.25s ease;
+}
+.capsule4::after{
+color: #d8b802;
+opacity: 0;
+animation: slideright cubic-bezier(.68,.01,.33,1.16) 0.25s;
+
+}
+.capsule4:hover::after{
+color:#d8b802;
+content:  "/explore";
+animation: slideright cubic-bezier(.68,.01,.33,1.16) 0.25s;
+opacity: 1;
+
+}
+
+h1 z a:hover{
+
+color: #d8b802;
+transition: 0.25s ease;
+}
+
+
+
+@keyframes changementtaille{
+0%{
+  font-size: 30;
+}
+100%{
+  font-size: 100;
+  
+}
+}
+
+.capsule2{
+  font-family: 'outofspacemedium','Poppins', sans-serif;
+  color: #ffffff;
+  font-size: 3em;
+  animation: slideright cubic-bezier(.68,.01,.33,1.16) 1s;
+
+}
+.capsule2:hover {
+  color: #200580;
+  transition: 0.25s ease;
+
+}
+
+.capsule3{
+font-family: 'old_londonregular','Poppins', sans-serif;
+  color: #ffffff;
+  font-size: 2em;
+  animation: slideleft cubic-bezier(.68,.01,.33,1.16) 1s;
+
+}
+.capsule3:hover {
+  color: #920101;
+  transition: 0.25s ease;
+
+}
+
+.capsule4{
+font-family: 'nicolas_frespechregular','Poppins', sans-serif;
+  color: #ffffff;
+  font-size: 1.2em;
+  animation: slideup cubic-bezier(.68,.01,.33,1.16) 1s;
+
+}
+.capsule4:hover {
+  color: #d8b802;
+  transition: 0.25s ease;
+
+}
+
+header p {
+  margin-right: 24px;
+  text-align: right;
+  align-items: end;
+
+}
+
+header t {
+  font-size: 2em;
+  grid-column: 1/3;
+  grid-row: 1/3;
+  text-align: center;
+  /*
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-left: 24px;*/
+  align-items: end;
+  padding: 40px;
+
+}
+
+
+
+h1,
+h2 {
+
+  font-family: 'Poppins', sans-serif;
+  color: rgb(28, 88, 167);
+}
+
+h3 {
+  font-size: 16px;
+  margin: 10px;
+  color: #7e7e7ebb
+}
+
+p {
+  margin: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+li {
+  margin-left: 20 px;
+}
+
+a {
+
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+p a {
+  text-decoration: none;
+  font-weight: 300;
+
+
+}
+
+g{
+  text-decoration: none;
+  font-weight: 400;
+}
+
+p g {
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  font-size: 0.8em;
+
+}
+
+t {
+  text-decoration: none;
+  font-weight: 400;
+  align-items: center;
+}
+
+.text {
+  font-weight: 300;
+}
+
+
+img {
+  
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+.video {
+  grid-column: span 3;
+}
+
+.big {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.affiche {
+  grid-column: span 2;
+  grid-row: span 3;
+}
+
+.long{
+  grid-row: span 2;
+
+}
+
+.footer {
+  grid-column: 1/-1;
+  font-size: 10pt;
+  text-align: center;
+}
+
+figure {
+  display: grid;
+
+  background: #000000;
+}
+
+@keyframes slideleft{
+0%{
+  opacity: 0;
+  transform: translateX(-300px);
+}
+100%{
+  opacity: 1;
+  transform: translateX(0);
+  
+}
+}
+
+@keyframes slideright{
+0%{
+  opacity: 0;
+  transform: translateX(500px);
+}
+100%{
+  opacity: 1;
+  transform: translateX(0);
+  
+}
+}
+
+@keyframes slideup{
+0%{
+  opacity: 0;
+  transform: translateY(400px);
+}
+
+100%{
+  opacity: 1;
+  transform: translateY(0);
+  
+}
+}
+
+
+@keyframes changementcouleur{
+0%{
+  
+  background: #000000;
+}
+100%{
+  background: #af9158;
+}
+}
+
+@keyframes changementcouleur2{
+0%{
+  
+  background: #000000;
+}
+100%{
+  background: #000000;
+}
+}
+
+.pull{
+animation: slideleft cubic-bezier(.68,.01,.33,1.16) 1s;
+
+}
+.pull:hover{
+  
+}
+
+figure:hover figcaption {
+  opacity: 1;
+
+}
+.aaa{
+opacity: 0;
+}
+
+.aaa:hover {
+opacity: 1;
+}
+
+figure figcaption {
+  opacity: 0;
+}
+
+figure img {
+  opacity: 1;
+}
+
+
+.image img {
+  /* La transition s'applique Ã  la fois sur la largeur et la hauteur, avec une durÃ©e d'une seconde. */
+  -webkit-transition: all 1s ease; /* Safari et Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* Internet Explorer 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+  
+}
+
+.image:hover img {
+  /* L'image est grossie de 1000% */
+  -webkit-transform:scale(1.55); /* Safari et Chrome */
+  -moz-transform:scale(1.55); /* Firefox */
+  -ms-transform:scale(1.55); /* Internet Explorer 9 */
+  -o-transform:scale(1.55); /* Opera */
+  transform:scale(1.55);
+  
+}
+
+
+
+
+figure a,
+figure img,
+figure figcaption {
+  font-size: 20pt;
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  transition: opacity 0.5s;
+
+
+}
+
+#IDdubouton{
+  position:fixed;
+  /* La couleur de fond*/
+  background:#000000;
+  /*La bordure*/
+  border:2px solid #000000;
+
+  color:#ffffff;
+  /* la longueur et l'espace autour du texte*/
+  width:50px;
+  height:60px;
+  padding:12px;
+  font-size: 0.6em;
+  /* On place le bloc en bas à droite*/
+  right:30px;
+  bottom:20px;
+  /* On ajoute un bord arrondi pour les navigateurs compatibles*/
+  border-radius:7px;-moz-border-radius:7px;-khtml-border-radius:7px;-webkit-border-radius:7px  
+  
+}
+
+div {
+  z-index: 1;
+}
+
+div1{
+  z-index: 10;
+}
+#IDdubouton:hover{
+  font-size: 0.6em;
+  /*On change le curseur de la souris au survol*/
+  cursor:pointer;
+  /*On change la couleur de fond au survol*/
+  background:#000000;
+  /*On change la couleur de la bordure au survol*/
+  border: 2px solid #000000;
+  
+  /*On change la couleur de texte au survol*/
+  color:#eff0d4
+}
